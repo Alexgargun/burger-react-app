@@ -1,85 +1,76 @@
 // Наше меню
 const sampleBurgers = {
   burger1: {
-    name: 'Чизбургер',
-    image: '/images/cheese.jpg',
-    desc:
-      'Классический бургер с бифштексом из 100% говядины с маринованными огурчиками и свежей пшеничной булочкой.',
-    price: 110,
-    status: 'available'
+    name: "Cheeseburger",
+    image: "/images/cheese.jpg",
+    desc: "Classic 100% beef steak burger with pickled cucumbers and fresh wheat bun.",
+    price: 5.5,
+    status: "available",
   },
 
   burger2: {
-    name: 'Чикенбургер',
-    image: '/images/chicken.jpg',
-    desc:
-      'Куриный бургер с добавлением расплавленного сыра, соуса Барбекю и листового салата.',
-    price: 140,
-    status: 'available'
+    name: "Chicken Burger",
+    image: "/images/chicken.jpg",
+    desc: "Chicken burger topped with melted cheese, BBQ sauce and lettuce.",
+    price: 7.0,
+    status: "available",
   },
 
   burger3: {
-    name: 'Двойной Гамбургер',
-    image: '/images/double.jpg',
-    desc:
-      'Двойной гамбургер с бифштексом из 100% говядины и расплавленным сыром Чеддер и пряным соусом.',
-    price: 200,
-    status: 'unavailable'
+    name: "Double Hamburger",
+    image: "/images/double.jpg",
+    desc: "Double hamburger with 100% beef steak and melted cheddar cheese and spicy sauce.",
+    price: 10.0,
+    status: "unavailable",
   },
 
   burger4: {
-    name: 'Фишбургер',
-    image: '/images/fish.jpg',
-    desc:
-      'Рыбное филе высшего качества c листовым салатом, маринованными огурчиками и преправленное легким майонезом.',
-    price: 150,
-    status: 'available'
+    name: "Fish Burger",
+    image: "/images/fish.jpg",
+    desc: "Top quality fish fillet with leaf lettuce, pickled cucumbers and seasoned with light mayonnaise.",
+    price: 7.5,
+    status: "available",
   },
 
   burger5: {
-    name: 'Картофель Фри',
-    image: '/images/fries.jpg',
-    desc:
-      'Хрустящие ломтики золотистого горячего картофеля Супер Фри, сделанные из отборного органического корнеплода!',
-    price: 85,
-    status: 'available'
+    name: "Potato Fry",
+    image: "/images/fries.jpg",
+    desc: "Crispy slices of golden hot potato Super Fries made from selected organic roots!",
+    price: 4.0,
+    status: "available",
   },
 
   burger6: {
-    name: 'King Бургер',
-    image: '/images/ham.jpg',
-    desc:
-      'Бургер из 100% отборной говядины, с жаренными ломтиками бекона и свежим расплавленным сыром, заправленный кетчупом и майонезом.',
-    price: 450,
-    status: 'available'
+    name: "King Burger",
+    image: "/images/ham.jpg",
+    desc: "100% selected beef burger with fried bacon slices and fresh melted cheese dressed with ketchup and mayonnaise.",
+    price: 20.0,
+    status: "available",
   },
 
   burger7: {
-    name: 'Мега Бургер',
-    image: '/images/mega.jpg',
-    desc:
-      'Наш самый большой бургер, сделанный из свежайшего бифштекса, с добавлением расплавленного сыра Чеддер и соленых огурчиков.',
-    price: 500,
-    status: 'available'
+    name: "Mega Burger",
+    image: "/images/mega.jpg",
+    desc: "Our largest burger ever, made with the freshest steak, melted Cheddar cheese and pickles.",
+    price: 25.0,
+    status: "available",
   },
 
   burger8: {
-    name: 'Бургер в Пите',
-    image: '/images/pita.jpg',
-    desc:
-      'Четыре котлеты из 100% говядины, покрытые плавленным сыром Чеддер, со свежим листовым салатом в свежей пшеничной лепешке.',
-    price: 380,
-    status: 'available'
+    name: "Burger in Pita",
+    image: "/images/pita.jpg",
+    desc: "Four 100% beef patties topped with melted Cheddar cheese with fresh leaf lettuce in fresh wheat tortilla.",
+    price: 19.0,
+    status: "available",
   },
 
   burger9: {
-    name: 'Village Фри',
-    image: '/images/bakedFries.jpg',
-    desc:
-      'Порция свежих ломтиков картофеля, запеченых на открытом воздухе под мирно тлеющими углями',
-    price: 90,
-    status: 'available'
-  }
+    name: "Village Fry",
+    image: "/images/bakedFries.jpg",
+    desc: "Portion of fresh potato slices baked outdoors under peacefully smoldering coals",
+    price: 4.5,
+    status: "available",
+  },
 };
 
 export default sampleBurgers;
