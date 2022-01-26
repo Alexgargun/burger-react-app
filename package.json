@@ -2,6 +2,7 @@
   "name": "hot-burgers",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alexgargun.github.io/burger-react-app/",
   "dependencies": {
     "autoprefixer-stylus": "^1.0.0",
     "firebase": "8.2.6",
@@ -20,7 +21,9 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
-    "styles:watch": "npm run styles -- -w"
+    "styles:watch": "npm run styles -- -w",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
